@@ -92,3 +92,75 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+/* Second Section */
+
+#scnd {
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0 170px;
+    background-color: rgba(255, 99, 71, 0.132);
+}
+
+.s-left {
+    width: 60%;
+    padding: 50px 0 0 0;
+}
+
+.s-left-top-txt {
+    color: tomato;
+}
+
+.s-left-btm-txt {
+    font-size: 40px;
+    font-size: 80px;
+}
+
+.s-left-mid {
+    display: flex;
+    align-items: center;
+
+}
+
+.s-left-mid-btm {
+    padding: 0 20px 0 20px;
+    width: 50%;
+}
+
+.s-left-mid-btm p {
+    padding: 20px 0 0 20px;
+}
+
+.s-left-mid-btm ul {
+    padding: 20px 0 0 30px;
+}
+
+.s-left-mid-btm li {
+    padding: 3px 0;
+}
+
+.s-left-mid-top {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.123);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-image: url("./midImg2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.s-right {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 40%;
+}
+
+.s-right img {
+    height: 700px;
+}
